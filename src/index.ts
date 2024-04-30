@@ -7,11 +7,9 @@ import {
   text,
   varchar,
   integer,
-  pgEnum,
-  uniqueIndex,
   timestamp,
 } from 'drizzle-orm/pg-core'
-import { NodePgDatabase, drizzle } from 'drizzle-orm/node-postgres'
+import { drizzle } from 'drizzle-orm/node-postgres'
 import { Pool } from 'pg'
 import { asc, desc, eq } from 'drizzle-orm'
 
